@@ -1,5 +1,6 @@
 import React,{Component} from "react";
 import Header from "../components/Layout/Header"
+import Footer from "../components/Layout/Footer"
 import About from "../components/About"
 import Destination from "../components/Destination"
 import Offer from "../components/Offer"
@@ -24,6 +25,9 @@ class Home extends Component{
           </Grid>
           <Grid item xs={12}>
             <Contact/>
+          </Grid>
+          <Grid item xs={12}>
+            <Footer/>
           </Grid>
       </Grid>
     )

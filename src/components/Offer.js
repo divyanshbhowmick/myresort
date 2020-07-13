@@ -2,6 +2,10 @@ import React,{useEffect, useState} from "react"
 import { Grid, withStyles, Typography, Card, CardMedia, CardContent, CardActions, Button } from "@material-ui/core";
 import { pxToRem } from "../utils/theme";
 import aboutResort from "../assets/aboutResort.jpg"
+import offer1 from "../assets/offer1.jpg"
+import offer2 from "../assets/offer2.png"
+import offer3 from "../assets/offer3.jpg"
+import offer4 from "../assets/offer4.jpg"
 import AOS from "aos"
 import 'aos/dist/aos.css';
 const styles= (theme)=>({
@@ -116,7 +120,7 @@ const Offer = (props)=>{
             <Grid data-aos="zoom-in" container item className={classes.aboutWrapper}> 
                 <Grid item xs={3} className={classes.cardWrapper} onMouseEnter={()=>setCard(1)} onMouseLeave={()=>setCard(0)}>
                     <Card className={getCard===1?`${classes.cardItem} ${classes.flipCard}`:`${classes.cardItem}`}>
-                        <CardMedia component="img" image={aboutResort} className={classes.aboutImage}/>
+                        <CardMedia component="img" image={offer1} className={classes.aboutImage}/>
                         <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
                             Mumbai
@@ -141,7 +145,7 @@ const Offer = (props)=>{
                 </Grid>
                 <Grid item xs={3} className={classes.cardWrapper} onMouseEnter={()=>setCard(2)} onMouseLeave={()=>setCard(0)}>
                     <Card className={getCard===2?`${classes.cardItem} ${classes.flipCard}`:`${classes.cardItem}`}>
-                        <CardMedia component="img" image={aboutResort} className={classes.aboutImage}/>
+                        <CardMedia component="img" image={offer2} className={classes.aboutImage}/>
                         <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
                             Mumbai
@@ -166,7 +170,7 @@ const Offer = (props)=>{
                 </Grid>
                 <Grid item xs={3} className={classes.cardWrapper} onMouseEnter={()=>setCard(3)} onMouseLeave={()=>setCard(0)}>
                     <Card className={getCard===3?`${classes.cardItem} ${classes.flipCard}`:`${classes.cardItem}`}>
-                        <CardMedia component="img" image={aboutResort} className={classes.aboutImage}/>
+                        <CardMedia component="img" image={offer3} className={classes.aboutImage}/>
                         <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
                             Mumbai
@@ -191,7 +195,7 @@ const Offer = (props)=>{
                 </Grid>
                 <Grid item xs={3} className={classes.cardWrapper} onMouseEnter={()=>setCard(4)} onMouseLeave={()=>setCard(0)}>
                     <Card className={getCard===4?`${classes.cardItem} ${classes.flipCard}`:`${classes.cardItem}`}>
-                        <CardMedia component="img" image={aboutResort} className={classes.aboutImage}/>
+                        <CardMedia component="img" image={offer4} className={classes.aboutImage}/>
                         <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
                             Mumbai

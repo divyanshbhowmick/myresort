@@ -2,6 +2,9 @@ import React,{useEffect} from "react"
 import { Grid, withStyles, Typography, Card, CardMedia, CardContent, CardActions, Button } from "@material-ui/core";
 import { pxToRem } from "../utils/theme";
 import aboutResort from "../assets/aboutResort.jpg"
+import dest1 from "../assets/dest1.jpg"
+import dest2 from "../assets/dest4.jpg"
+import dest3 from "../assets/dest3.jpg"
 import AOS from "aos"
 import 'aos/dist/aos.css';
 const styles= (theme)=>({
@@ -22,7 +25,7 @@ const styles= (theme)=>({
     },
     aboutImage:{
         minWidth:pxToRem(500),
-        minHeight:pxToRem(500),
+        minHeight:pxToRem(250),
     },
     cardItem:{
         margin:pxToRem(20),
@@ -68,7 +71,7 @@ const Destination = (props)=>{
             <Grid data-aos="zoom-in" data-aos-delay="100" container item className={classes.aboutWrapper}> 
                 <Grid item xs={3}>
                     <Card className={classes.cardItem}>
-                        <CardMedia component="img" image={aboutResort}/>
+                        <CardMedia component="img" image={dest1} className={classes.aboutImage}/>
                         <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
                             Mumbai
@@ -86,7 +89,7 @@ const Destination = (props)=>{
                 </Grid>
                 <Grid item xs={3}>
                     <Card className={classes.cardItem}>
-                        <CardMedia component="img" image={aboutResort}/>
+                        <CardMedia component="img" image={dest2}/>
                         <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
                             Kolkata
@@ -104,7 +107,7 @@ const Destination = (props)=>{
                 </Grid> 
                 <Grid item xs={3}>
                     <Card className={classes.cardItem}>
-                        <CardMedia component="img" image={aboutResort}/>
+                        <CardMedia component="img" image={dest3}/>
                         <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
                             Chennai
