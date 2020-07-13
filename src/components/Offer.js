@@ -1,7 +1,6 @@
 import React,{useEffect, useState} from "react"
 import { Grid, withStyles, Typography, Card, CardMedia, CardContent, CardActions, Button } from "@material-ui/core";
 import { pxToRem } from "../utils/theme";
-import aboutResort from "../assets/aboutResort.jpg"
 import offer1 from "../assets/offer1.jpg"
 import offer2 from "../assets/offer2.png"
 import offer3 from "../assets/offer3.jpg"
