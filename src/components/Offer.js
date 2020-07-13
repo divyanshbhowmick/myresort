@@ -132,7 +132,7 @@ const Offer = (props)=>{
                             <br/>
                             <br/>
                         <Typography gutterBottom variant="h3">
-                            $250/Day
+                            $100/Day
                         </Typography>
                         </CardContent>
                         <CardActions className={classes.cardActionBack}>
@@ -147,7 +147,7 @@ const Offer = (props)=>{
                         <CardMedia component="img" image={offer2} className={classes.aboutImage}/>
                         <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
-                            Mumbai
+                            Chennai
                         </Typography>
                         </CardContent>                        
                     </Card>
@@ -157,7 +157,7 @@ const Offer = (props)=>{
                             <br/>
                             <br/>
                         <Typography gutterBottom variant="h3">
-                            $250/Day
+                            $120/Day
                         </Typography>
                         </CardContent>
                         <CardActions className={classes.cardActionBack}>
@@ -172,7 +172,7 @@ const Offer = (props)=>{
                         <CardMedia component="img" image={offer3} className={classes.aboutImage}/>
                         <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
-                            Mumbai
+                            Kolkata
                         </Typography>
                         </CardContent>                        
                     </Card>
@@ -182,7 +182,7 @@ const Offer = (props)=>{
                             <br/>
                             <br/>
                         <Typography gutterBottom variant="h3">
-                            $250/Day
+                            $90/Day
                         </Typography>
                         </CardContent>
                         <CardActions className={classes.cardActionBack}>
@@ -197,7 +197,7 @@ const Offer = (props)=>{
                         <CardMedia component="img" image={offer4} className={classes.aboutImage}/>
                         <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
-                            Mumbai
+                            Hyderabad
                         </Typography>
                         </CardContent>                        
                     </Card>
@@ -207,7 +207,7 @@ const Offer = (props)=>{
                             <br/>
                             <br/>
                         <Typography gutterBottom variant="h3">
-                            $250/Day
+                            $200/Day
                         </Typography>
                         </CardContent>
                         <CardActions className={classes.cardActionBack}>
